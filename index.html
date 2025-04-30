@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carte de Profil</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 400px;
+      text-align: center;
+      opacity: 0; /* Commence invisible */
+      transition: opacity 1s ease-in;
+      position: relative;
+    }
+
+    .visible {
+      opacity: 1;
+    }
+
+    .avatar {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .dark-mode {
+      background-color: #222;
+      color: white;
+    }
+
+    .dark-mode .horloge {
+      color: #ccc;
+    }
+
+    .horloge {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card" id="profileCard">
+    <img src="https://i.pravatar.cc/100" alt="Avatar" class="avatar">
+    <h2>Nom : Steve</h2>
+    <p>Rôle : permanent AGE</p>
+    <p>Email : <!-- TODO [1]: email --></p>
+    <p>Numéro de tél : <!-- TODO [1]: num tel --></p>
+    <p>Adresse : <!-- TODO [1]: adresse --></p>
+    <br>
+    <p>Si tu as des questions sur ... <!-- TODO [last] --></p>
+    <button onclick="toggleTheme()">🌗 Thème</button>
+    <div class="horloge" id="horloge">--:--:--</div>
+  </div>
+
+  <script>
+
+    function toggleTheme() {
+      // TODO [2]: Compléter cette fonction pour qu’elle bascule en mode sombre
+      // Sélectionne la carte de profil via son ID (profileCard)
+      // Et utilise la classe 'dark-mode' pour changer le thème
+      
+    }
+    
+    function updateClock() {
+      // TODO [3]: Implémente l'affichage de l'heure
+      // Récupére l'élément horloge via son ID (horloge)
+      // Et met à jour son contenu avec l'heure actuelle
+     
+    }
+    setInterval(updateClock, 1000); // met à jour toutes les secondes
+    updateClock(); // appel initial
+
+
+     // Afficher la carte après 2 secondes de chargement
+     window.addEventListener("load", () => {
+        // TODO [4] : Afficher la carte après 2 secondes
+        // utilise setTimeout pour ajouter la classe 'visible' à la carte de profil
+        document.getElementById("profileCard").classList.add("visible");
+
+    });
+
+  </script>
+
+</body>
+</html>
