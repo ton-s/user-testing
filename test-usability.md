@@ -19,7 +19,7 @@ Vous allez utiliser l'extension VSCode appelée **FlowTabs** qui permet d'améli
 - **Windows**
 
 
-## Installation du plugin
+## Installation de l'outil
 
 1. Si tout s'est bien passé, vous avez cloné le dépôt GitHub et vous devriez voir un dossier pour l'extension Chrome ainsi qu’un dossier pour l'extension VSCode.
 2. Installez le fichier `.vsix` dans VSCode :
@@ -65,7 +65,7 @@ Vas y chercher les données nécessaires, puis insère-les dans les emplacements
 
 ---
 
-4. **Ajout de favoris**  
+4. **Ajout en favori**  
 Une fois cette ressource consultée, pense à l’ajouter aux favoris via l’extension **Flowtabs**. Survolez la ressource concernée et cliquez sur l'étoile pour l'ajouter à vos favoris (comme onglet pertinent).  
 Elle te servira à nouveau plus tard dans les prochaines étapes.
 
@@ -82,7 +82,7 @@ L'utilisateur souhaite pouvoir changer le thème de la carte de profil (mode cla
 6. **Troisième tâche `TODO [3]`**  
 Ton collègue avait commencé à intégrer une horloge, mais n’a pas pu finaliser la logique JavaScript pour l’affichage dynamique de l’heure. Peux-tu compléter son code afin d’afficher l’heure actuelle en temps réel ? Voici les ressources que tu dois impérativement consulter.
 
-👉 [Obtenir l’heure actuelle en JavaScript](https://stackoverflow.com/questions/10211145/getting-current-date-and-time-in-javascript)  
+👉 [Obtenir l’heure actuelle en JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString)  
 💡 D’autres ressources pourraient être encore utiles : n’hésite pas à les retrouver via l'extension Flowtabs.
 
 ---
