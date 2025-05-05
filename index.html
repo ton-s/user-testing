@@ -71,16 +71,18 @@
   <script>
 
     function toggleTheme() {
-      // TODO [2]: Compléter cette fonction pour qu’elle bascule en mode sombre
-      // Sélectionne la carte de profil via son ID (profileCard)
+      // TODO [2]: compléter cette fonction pour qu’elle bascule en mode sombre
+      // Sélectionne la carte de profil via son ID ('profileCard')
       // Et utilise la classe 'dark-mode' pour changer le thème
       
     }
     
     function updateClock() {
-      // TODO [3]: Implémente l'affichage de l'heure
-      // Récupére l'élément horloge via son ID (horloge)
+      // TODO [3]: implémente l'affichage de l'heure
+      // Récupére l'élément horloge via son ID ('horloge')
       // Et met à jour son contenu avec l'heure actuelle
+      // const now = ... // Récupère l'heure actuelle (les paramètres sont inutiles)
+      // horloge.innerText = ...
      
     }
     setInterval(updateClock, 1000); // met à jour toutes les secondes
@@ -89,8 +91,9 @@
 
      // Afficher la carte après 2 secondes de chargement
      window.addEventListener("load", () => {
-        // TODO [4] : Afficher la carte après 2 secondes
-        // utilise setTimeout pour ajouter la classe 'visible' à la carte de profil
+        // TODO [4] : afficher la carte après 2 secondes
+        // Utilise setTimeout pour ajouter la classe 'visible' à la carte de profil
+        // Ce code ci-dessus permet déjà de faire apparaître la carte
         document.getElementById("profileCard").classList.add("visible");
 
     });
