@@ -98,7 +98,7 @@ Une page de résultats Google s’ouvrira automatiquement : consulte le premier 
 ---
 
 8. **Dernière tâche `TODO [last]`**  
-Pour terminer, on peut voir que la "description" de la carte de profil n'est pas terminée, il est noté **"Si tu as des questions sur ..."**. La phrase complète se trouve dans la source que je t'ai demandé de mettre en favori. Rends-toi là-bas pour achever le projet.
+Pour terminer, on peut voir que la "description" du profil n'est pas terminée, il est noté **"Si tu as des questions sur ..."**. La phrase complète se trouve dans la source que je t'ai demandé de mettre en favori. Rends-toi là-bas pour achever le projet.
 
 <br>
 
