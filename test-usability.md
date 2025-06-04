@@ -12,7 +12,7 @@
 Vous allez utiliser l'extension VSCode appelée **FlowTabs** qui permet d'améliorer la synchronisation et la gestion de vos onglets de votre navigateur web ainsi que vos fenêtres d'applications sur votre bureau directement depuis votre IDE. Cet outil vous permet de naviguer rapidement entre les ressources et votre environnement de travail sans encombrement. Donc, on ne va pas tester vos compétences en programmation mais l’outil en question.
 
 
-## Pré-requis
+## Prérequis
 
 - **VSCode**
 - **Google Chrome** (navigateur web par défaut)
@@ -29,7 +29,7 @@ Vous allez utiliser l'extension VSCode appelée **FlowTabs** qui permet d'améli
 3. Installez l'extension Chrome :
     - Activez le mode développeur dans [chrome://extensions](chrome://extensions) dans Chrome
     - Cliquez sur **"Load unpacked"** et sélectionnez le dossier de l'extension chrome
-4. Félicitations ! L’extension est prête à l'emploie et apparaît dans la barre latérale gauche de VSCode.
+4. Félicitations ! L’extension est prête à l'emploi et apparaît dans la barre latérale gauche de VSCode.
 
 
 ## Scénario
@@ -37,7 +37,7 @@ Vous allez utiliser l'extension VSCode appelée **FlowTabs** qui permet d'améli
 ### Contexte fictif
 
 "Tu es développeur(se) sur une application encore en phase de développement. Ton quotidien consiste à jongler entre plusieurs ressources : la documentation technique, l'application en cours d'exécution, des sites de référence liés à la technologie utilisée, et bien sûr ton environnement de développement sous VSCode. Pour t'aider à gagner en productivité et à éviter de te disperser, un collègue te suggère d'utiliser l'extension FlowTabs, qui te permet de centraliser tous ces outils directement dans ton éditeur.  
-Ce même collègue, qui travaillait auparavant sur un projet web, t’a désormais passé le relais. Il t’a transmis une liste de tâches à poursuivre pour assurer la continuité du développement. Ainsi que des ressources que tu dois impérativement consulter."
+Ce même collègue, qui travaillait auparavant sur un projet web, t’a désormais passé le relais. Il t’a transmis une liste de tâches à poursuivre pour assurer la continuité du développement, ainsi que des ressources que tu dois impérativement consulter."
 
 
 ### Tâches à accomplir
@@ -61,7 +61,7 @@ Après cette première prise en main de **Flowtabs**, on passe aux choses série
 En observant le fichier HTML, tu remarqueras un premier commentaire noté "TODO [1]". Ton collègue te demande ici de compléter le champ email et numéro de téléphone du permanent pour sa carte de profil.
 Ces informations se trouvent sur la page suivante :  
 👉 https://application.age-namur.be/contacts  
-Vas y chercher les données nécessaires, puis insère-les dans les emplacements prévus dans le code (n'oublie pas de rafraîchir la page de ton site pour voir tes modifications).
+Vas-y chercher les données nécessaires, puis insère-les dans les emplacements prévus dans le code (n'oublie pas de rafraîchir la page de ton site pour voir tes modifications).
 
 ---
 
